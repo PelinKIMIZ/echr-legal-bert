@@ -13,9 +13,9 @@ Fine-tuning `nlpaueb/legal-bert-base-uncased` on 11,478 European Court of Human 
 
 This project addresses two classification tasks using ECHR judgment texts:
 
-**Task 1 — Binary Classification:** Predict whether a judgment results in a violation of the European Convention on Human Rights.
+**Task 1: Binary Classification:** Predict whether a judgment results in a violation of the European Convention on Human Rights.
 
-**Task 2 — Multi-class Classification:** Identify which Convention article was violated (Art. 2, 3, 5, 6, 8, 10, or Protocol 1 Art. 1).
+**Task 2: Multi-class Classification:** Identify which Convention article was violated (Art. 2, 3, 5, 6, 8, 10, or Protocol 1 Art. 1).
 
 ## Dataset
 
@@ -30,8 +30,8 @@ This project addresses two classification tasks using ECHR judgment texts:
 ## Key Findings
 
 **Task 1:**
-- Violation recall of **0.99** — the model captures almost all actual violations
-- No Violation recall of **0.63** — harder to classify due to heterogeneous inadmissible and mixed cases
+- Violation recall of **0.99**  the model captures almost all actual violations
+- No Violation recall of **0.63** harder to classify due to heterogeneous inadmissible and mixed cases
 
 **Task 2:**
 - Art. 6 (Fair Trial, F1: 0.79) and Art. 3 (Prohibition of Torture, F1: 0.74) perform best, benefiting from larger training sets
@@ -77,5 +77,8 @@ Open `echr_analysis_final.ipynb` in Google Colab with a GPU runtime (Runtime →
 
 ## Authors
 
-Pelin Kımız · Anıl Yazıcı  
-Constructor University Bremen — Data Science for Society and Business
+**Anıl Yazıcı**  
+[GitHub](https://github.com/anilyazici) | [LinkedIn](https://linkedin.com/in/anıl-yazıcı-a7b0aa25b)
+
+**Pelin Kimiz**  
+[GitHub](https://github.com/pelinkimiz) | [LinkedIn](https://linkedin.com/in/pelin-kimiz-b58a30140)
